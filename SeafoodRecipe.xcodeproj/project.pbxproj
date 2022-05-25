@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0B5FB0283E3D5500D5E0FB /* SRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B5FAF283E3D5500D5E0FB /* SRViewController.swift */; };
 		8B1360C1283E344B0060FA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1360C0283E344B0060FA21 /* AppDelegate.swift */; };
 		8B1360C3283E344B0060FA21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1360C2283E344B0060FA21 /* SceneDelegate.swift */; };
 		8B1360C5283E344B0060FA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1360C4283E344B0060FA21 /* ViewController.swift */; };
 		8B1360C8283E344B0060FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1360C6283E344B0060FA21 /* Main.storyboard */; };
 		8B1360CA283E344B0060FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1360C9283E344B0060FA21 /* Assets.xcassets */; };
 		8B1360CD283E344B0060FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1360CB283E344B0060FA21 /* LaunchScreen.storyboard */; };
+		8B1BA50E283EAAE800CEC991 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA50D283EAAE800CEC991 /* RecipeDetailViewModel.swift */; };
+		8B1BA51A283EAE4200CEC991 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA518283EAE4200CEC991 /* HeaderCell.swift */; };
+		8B1BA51B283EAE4200CEC991 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BA519283EAE4200CEC991 /* HeaderCell.xib */; };
+		8B1BA51E283EAE5000CEC991 /* SubHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA51C283EAE5000CEC991 /* SubHeaderCell.swift */; };
+		8B1BA51F283EAE5000CEC991 /* SubHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BA51D283EAE5000CEC991 /* SubHeaderCell.xib */; };
+		8B1BA522283EAE6200CEC991 /* IngridientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA520283EAE6200CEC991 /* IngridientCell.swift */; };
+		8B1BA523283EAE6200CEC991 /* IngridientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BA521283EAE6200CEC991 /* IngridientCell.xib */; };
+		8B1BA526283EAE7700CEC991 /* InstructionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA524283EAE7700CEC991 /* InstructionCell.swift */; };
+		8B1BA527283EAE7700CEC991 /* InstructionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BA525283EAE7700CEC991 /* InstructionCell.xib */; };
+		8B1BA52B283EB02D00CEC991 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA529283EB02D00CEC991 /* ImageCell.swift */; };
+		8B1BA52C283EB02D00CEC991 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BA52A283EB02D00CEC991 /* ImageCell.xib */; };
+		8B1BA52F283EC7A500CEC991 /* ExtColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1BA52E283EC7A500CEC991 /* ExtColor.swift */; };
+		8B1F69CD283E44520019CEBE /* RecipeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F69CC283E44520019CEBE /* RecipeListVC.swift */; };
+		8B1F69D1283E44600019CEBE /* RecipeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F69D0283E44600019CEBE /* RecipeListVC.xib */; };
+		8B1F69DB283E44840019CEBE /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F69DA283E44840019CEBE /* RecipeDetailVC.swift */; };
+		8B1F69DF283E44930019CEBE /* RecipeDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F69DE283E44930019CEBE /* RecipeDetailVC.xib */; };
+		8B1F69EB283E44F10019CEBE /* RecipeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F69E9283E44F10019CEBE /* RecipeListCell.swift */; };
+		8B1F69EC283E44F10019CEBE /* RecipeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F69EA283E44F10019CEBE /* RecipeListCell.xib */; };
+		8B4EBBC3283E69FA006C13DB /* Futura_20Medium_20BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EBBC0283E69FA006C13DB /* Futura_20Medium_20BT.ttf */; };
+		8B4EBBC4283E69FA006C13DB /* FutuBkIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EBBC1283E69FA006C13DB /* FutuBkIt.ttf */; };
+		8B4EBBC5283E69FA006C13DB /* FutuBk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EBBC2283E69FA006C13DB /* FutuBk.ttf */; };
+		8B4EBBC8283E6B05006C13DB /* FutuHv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EBBC7283E6B05006C13DB /* FutuHv.ttf */; };
+		8B4EBBCD283E734F006C13DB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EBBCC283E734F006C13DB /* Recipe.swift */; };
+		8B4EBBD6283E7657006C13DB /* RecipeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EBBD5283E7657006C13DB /* RecipeUseCase.swift */; };
+		8B4EBBDA283E77F7006C13DB /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EBBD9283E77F7006C13DB /* RecipeViewModel.swift */; };
+		8B537CB5283E9DF700851724 /* RecipeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B537CB4283E9DF700851724 /* RecipeTarget.swift */; };
+		8B6548AE283E87F50079C750 /* SeafoodRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6548AD283E87F50079C750 /* SeafoodRecipeTests.swift */; };
+		8B6548B5283E8F550079C750 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6548B4283E8F550079C750 /* ApiConfiguration.swift */; };
+		8B6548B7283E8F690079C750 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6548B6283E8F690079C750 /* ApiError.swift */; };
+		8B6548B9283E8F790079C750 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6548B8283E8F790079C750 /* ApiClient.swift */; };
+		A5C6DF0BFE20C2C7426BF623 /* Pods_SeafoodRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4002B471289F109DDC04599E /* Pods_SeafoodRecipe.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8B6548AF283E87F50079C750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1360B5283E344B0060FA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1360BC283E344B0060FA21;
+			remoteInfo = SeafoodRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4002B471289F109DDC04599E /* Pods_SeafoodRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeafoodRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0B5FAF283E3D5500D5E0FB /* SRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRViewController.swift; sourceTree = "<group>"; };
 		8B1360BD283E344B0060FA21 /* SeafoodRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeafoodRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1360C0283E344B0060FA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B1360C2283E344B0060FA21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +68,51 @@
 		8B1360C9283E344B0060FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1360CC283E344B0060FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1360CE283E344B0060FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1BA50D283EAAE800CEC991 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		8B1BA518283EAE4200CEC991 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		8B1BA519283EAE4200CEC991 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		8B1BA51C283EAE5000CEC991 /* SubHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeaderCell.swift; sourceTree = "<group>"; };
+		8B1BA51D283EAE5000CEC991 /* SubHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubHeaderCell.xib; sourceTree = "<group>"; };
+		8B1BA520283EAE6200CEC991 /* IngridientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientCell.swift; sourceTree = "<group>"; };
+		8B1BA521283EAE6200CEC991 /* IngridientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngridientCell.xib; sourceTree = "<group>"; };
+		8B1BA524283EAE7700CEC991 /* InstructionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionCell.swift; sourceTree = "<group>"; };
+		8B1BA525283EAE7700CEC991 /* InstructionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructionCell.xib; sourceTree = "<group>"; };
+		8B1BA529283EB02D00CEC991 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		8B1BA52A283EB02D00CEC991 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		8B1BA52E283EC7A500CEC991 /* ExtColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtColor.swift; sourceTree = "<group>"; };
+		8B1F69CC283E44520019CEBE /* RecipeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListVC.swift; sourceTree = "<group>"; };
+		8B1F69D0283E44600019CEBE /* RecipeListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeListVC.xib; sourceTree = "<group>"; };
+		8B1F69DA283E44840019CEBE /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
+		8B1F69DE283E44930019CEBE /* RecipeDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailVC.xib; sourceTree = "<group>"; };
+		8B1F69E9283E44F10019CEBE /* RecipeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListCell.swift; sourceTree = "<group>"; };
+		8B1F69EA283E44F10019CEBE /* RecipeListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeListCell.xib; sourceTree = "<group>"; };
+		8B4EBBC0283E69FA006C13DB /* Futura_20Medium_20BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura_20Medium_20BT.ttf; sourceTree = "<group>"; };
+		8B4EBBC1283E69FA006C13DB /* FutuBkIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FutuBkIt.ttf; sourceTree = "<group>"; };
+		8B4EBBC2283E69FA006C13DB /* FutuBk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FutuBk.ttf; sourceTree = "<group>"; };
+		8B4EBBC7283E6B05006C13DB /* FutuHv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FutuHv.ttf; sourceTree = "<group>"; };
+		8B4EBBCC283E734F006C13DB /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		8B4EBBD5283E7657006C13DB /* RecipeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeUseCase.swift; sourceTree = "<group>"; };
+		8B4EBBD9283E77F7006C13DB /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		8B537CB4283E9DF700851724 /* RecipeTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTarget.swift; sourceTree = "<group>"; };
+		8B6548AB283E87F50079C750 /* SeafoodRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeafoodRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6548AD283E87F50079C750 /* SeafoodRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodRecipeTests.swift; sourceTree = "<group>"; };
+		8B6548B4283E8F550079C750 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		8B6548B6283E8F690079C750 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		8B6548B8283E8F790079C750 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		CEDB7C081433F5A728846A05 /* Pods-SeafoodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeafoodRecipe.release.xcconfig"; path = "Target Support Files/Pods-SeafoodRecipe/Pods-SeafoodRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		D4E47BFC2E228947E37002FA /* Pods-SeafoodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeafoodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-SeafoodRecipe/Pods-SeafoodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B1360BA283E344B0060FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C6DF0BFE20C2C7426BF623 /* Pods_SeafoodRecipe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6548A8283E87F50079C750 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +122,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8035193B0E5FCEFD5DB30C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4E47BFC2E228947E37002FA /* Pods-SeafoodRecipe.debug.xcconfig */,
+				CEDB7C081433F5A728846A05 /* Pods-SeafoodRecipe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B0B5FAD283E3C6A00D5E0FB /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				8B1360C0283E344B0060FA21 /* AppDelegate.swift */,
+				8B1360C2283E344B0060FA21 /* SceneDelegate.swift */,
+				8B1360C4283E344B0060FA21 /* ViewController.swift */,
+				8B0B5FAF283E3D5500D5E0FB /* SRViewController.swift */,
+				8B1360C6283E344B0060FA21 /* Main.storyboard */,
+				8B1360CB283E344B0060FA21 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		8B0B5FAE283E3C9E00D5E0FB /* AssetsFile */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBBE283E69F0006C13DB /* Fonts */,
+				8B1360C9283E344B0060FA21 /* Assets.xcassets */,
+			);
+			path = AssetsFile;
+			sourceTree = "<group>";
+		};
 		8B1360B4283E344B0060FA21 = {
 			isa = PBXGroup;
 			children = (
 				8B1360BF283E344B0060FA21 /* SeafoodRecipe */,
+				8B6548AC283E87F50079C750 /* SeafoodRecipeTests */,
 				8B1360BE283E344B0060FA21 /* Products */,
+				8035193B0E5FCEFD5DB30C0F /* Pods */,
+				903BEE40A4B8EA75A66E75DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				8B1360BD283E344B0060FA21 /* SeafoodRecipe.app */,
+				8B6548AB283E87F50079C750 /* SeafoodRecipeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +176,225 @@
 		8B1360BF283E344B0060FA21 /* SeafoodRecipe */ = {
 			isa = PBXGroup;
 			children = (
-				8B1360C0283E344B0060FA21 /* AppDelegate.swift */,
-				8B1360C2283E344B0060FA21 /* SceneDelegate.swift */,
-				8B1360C4283E344B0060FA21 /* ViewController.swift */,
-				8B1360C6283E344B0060FA21 /* Main.storyboard */,
-				8B1360C9283E344B0060FA21 /* Assets.xcassets */,
-				8B1360CB283E344B0060FA21 /* LaunchScreen.storyboard */,
+				8B1BA52D283EC79500CEC991 /* Extension */,
+				8B4EBBD2283E756F006C13DB /* NetworkService */,
+				8B4EBBD7283E77E7006C13DB /* Recipe */,
+				8B0B5FAD283E3C6A00D5E0FB /* SupportingFile */,
+				8B0B5FAE283E3C9E00D5E0FB /* AssetsFile */,
 				8B1360CE283E344B0060FA21 /* Info.plist */,
 			);
 			path = SeafoodRecipe;
+			sourceTree = "<group>";
+		};
+		8B1BA50C283EAA8D00CEC991 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA528283EB02200CEC991 /* ImageCell */,
+				8B1BA514283EAE0400CEC991 /* HeaderCell */,
+				8B1BA515283EAE0D00CEC991 /* SubHeaderCell */,
+				8B1BA516283EAE2500CEC991 /* IngridientCell */,
+				8B1BA517283EAE2B00CEC991 /* InstructionCell */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		8B1BA514283EAE0400CEC991 /* HeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA518283EAE4200CEC991 /* HeaderCell.swift */,
+				8B1BA519283EAE4200CEC991 /* HeaderCell.xib */,
+			);
+			path = HeaderCell;
+			sourceTree = "<group>";
+		};
+		8B1BA515283EAE0D00CEC991 /* SubHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA51C283EAE5000CEC991 /* SubHeaderCell.swift */,
+				8B1BA51D283EAE5000CEC991 /* SubHeaderCell.xib */,
+			);
+			path = SubHeaderCell;
+			sourceTree = "<group>";
+		};
+		8B1BA516283EAE2500CEC991 /* IngridientCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA520283EAE6200CEC991 /* IngridientCell.swift */,
+				8B1BA521283EAE6200CEC991 /* IngridientCell.xib */,
+			);
+			path = IngridientCell;
+			sourceTree = "<group>";
+		};
+		8B1BA517283EAE2B00CEC991 /* InstructionCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA524283EAE7700CEC991 /* InstructionCell.swift */,
+				8B1BA525283EAE7700CEC991 /* InstructionCell.xib */,
+			);
+			path = InstructionCell;
+			sourceTree = "<group>";
+		};
+		8B1BA528283EB02200CEC991 /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA529283EB02D00CEC991 /* ImageCell.swift */,
+				8B1BA52A283EB02D00CEC991 /* ImageCell.xib */,
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		8B1BA52D283EC79500CEC991 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA52E283EC7A500CEC991 /* ExtColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8B1F69AB283E41B90019CEBE /* RecipeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B537CB7283E9EC000851724 /* ViewModel */,
+				8B1BA50C283EAA8D00CEC991 /* Component */,
+				8B1F69DA283E44840019CEBE /* RecipeDetailVC.swift */,
+				8B1F69DE283E44930019CEBE /* RecipeDetailVC.xib */,
+			);
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		8B1F69E8283E44D90019CEBE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F69E9283E44F10019CEBE /* RecipeListCell.swift */,
+				8B1F69EA283E44F10019CEBE /* RecipeListCell.xib */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		8B4EBBBE283E69F0006C13DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBC6283E6B05006C13DB /* FuturaHV */,
+				8B4EBBBF283E69FA006C13DB /* FuturaBk */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B4EBBBF283E69FA006C13DB /* FuturaBk */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBC0283E69FA006C13DB /* Futura_20Medium_20BT.ttf */,
+				8B4EBBC1283E69FA006C13DB /* FutuBkIt.ttf */,
+				8B4EBBC2283E69FA006C13DB /* FutuBk.ttf */,
+			);
+			name = FuturaBk;
+			path = "../../../../../../Work/btn-ibb-ios/btn-ibb-ios/AssetsFile/font/FuturaBk";
+			sourceTree = "<group>";
+		};
+		8B4EBBC6283E6B05006C13DB /* FuturaHV */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBC7283E6B05006C13DB /* FutuHv.ttf */,
+			);
+			name = FuturaHV;
+			path = "../../../../../../Work/btn-ibb-ios/btn-ibb-ios/AssetsFile/font/FuturaHV";
+			sourceTree = "<group>";
+		};
+		8B4EBBC9283E7306006C13DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBCC283E734F006C13DB /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B4EBBCF283E74B3006C13DB /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBD5283E7657006C13DB /* RecipeUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		8B4EBBD2283E756F006C13DB /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				8B6548B4283E8F550079C750 /* ApiConfiguration.swift */,
+				8B6548B6283E8F690079C750 /* ApiError.swift */,
+				8B6548B8283E8F790079C750 /* ApiClient.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		8B4EBBD7283E77E7006C13DB /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBCF283E74B3006C13DB /* UseCase */,
+				8B537CB3283E9DF100851724 /* Network */,
+				8B4EBBC9283E7306006C13DB /* Model */,
+				8B4EBBDB283E786B006C13DB /* Pages */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		8B4EBBD8283E77EF006C13DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBD9283E77F7006C13DB /* RecipeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B4EBBDB283E786B006C13DB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBDC283E78F1006C13DB /* RecipeList */,
+				8B1F69AB283E41B90019CEBE /* RecipeDetail */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		8B4EBBDC283E78F1006C13DB /* RecipeList */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EBBD8283E77EF006C13DB /* ViewModel */,
+				8B1F69E8283E44D90019CEBE /* Component */,
+				8B1F69CC283E44520019CEBE /* RecipeListVC.swift */,
+				8B1F69D0283E44600019CEBE /* RecipeListVC.xib */,
+			);
+			path = RecipeList;
+			sourceTree = "<group>";
+		};
+		8B537CB3283E9DF100851724 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8B537CB4283E9DF700851724 /* RecipeTarget.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8B537CB7283E9EC000851724 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BA50D283EAAE800CEC991 /* RecipeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B6548AC283E87F50079C750 /* SeafoodRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B6548AD283E87F50079C750 /* SeafoodRecipeTests.swift */,
+			);
+			path = SeafoodRecipeTests;
+			sourceTree = "<group>";
+		};
+		903BEE40A4B8EA75A66E75DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4002B471289F109DDC04599E /* Pods_SeafoodRecipe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1360D1283E344B0060FA21 /* Build configuration list for PBXNativeTarget "SeafoodRecipe" */;
 			buildPhases = (
+				F546FF9CD4355197941C612D /* [CP] Check Pods Manifest.lock */,
 				8B1360B9283E344B0060FA21 /* Sources */,
 				8B1360BA283E344B0060FA21 /* Frameworks */,
 				8B1360BB283E344B0060FA21 /* Resources */,
+				80FC5962D4F9C2D39E26A865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +418,24 @@
 			productName = SeafoodRecipe;
 			productReference = 8B1360BD283E344B0060FA21 /* SeafoodRecipe.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8B6548AA283E87F50079C750 /* SeafoodRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6548B3283E87F50079C750 /* Build configuration list for PBXNativeTarget "SeafoodRecipeTests" */;
+			buildPhases = (
+				8B6548A7283E87F50079C750 /* Sources */,
+				8B6548A8283E87F50079C750 /* Frameworks */,
+				8B6548A9283E87F50079C750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B6548B0283E87F50079C750 /* PBXTargetDependency */,
+			);
+			name = SeafoodRecipeTests;
+			productName = SeafoodRecipeTests;
+			productReference = 8B6548AB283E87F50079C750 /* SeafoodRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +449,10 @@
 				TargetAttributes = {
 					8B1360BC283E344B0060FA21 = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					8B6548AA283E87F50079C750 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8B1360BC283E344B0060FA21;
 					};
 				};
 			};
@@ -116,6 +470,7 @@
 			projectRoot = "";
 			targets = (
 				8B1360BC283E344B0060FA21 /* SeafoodRecipe */,
+				8B6548AA283E87F50079C750 /* SeafoodRecipeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,12 +481,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1360CD283E344B0060FA21 /* LaunchScreen.storyboard in Resources */,
+				8B1F69DF283E44930019CEBE /* RecipeDetailVC.xib in Resources */,
+				8B4EBBC3283E69FA006C13DB /* Futura_20Medium_20BT.ttf in Resources */,
+				8B1BA52C283EB02D00CEC991 /* ImageCell.xib in Resources */,
 				8B1360CA283E344B0060FA21 /* Assets.xcassets in Resources */,
+				8B1BA51B283EAE4200CEC991 /* HeaderCell.xib in Resources */,
+				8B4EBBC8283E6B05006C13DB /* FutuHv.ttf in Resources */,
+				8B1F69EC283E44F10019CEBE /* RecipeListCell.xib in Resources */,
+				8B1BA527283EAE7700CEC991 /* InstructionCell.xib in Resources */,
+				8B4EBBC5283E69FA006C13DB /* FutuBk.ttf in Resources */,
+				8B1F69D1283E44600019CEBE /* RecipeListVC.xib in Resources */,
+				8B1BA523283EAE6200CEC991 /* IngridientCell.xib in Resources */,
+				8B4EBBC4283E69FA006C13DB /* FutuBkIt.ttf in Resources */,
 				8B1360C8283E344B0060FA21 /* Main.storyboard in Resources */,
+				8B1BA51F283EAE5000CEC991 /* SubHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6548A9283E87F50079C750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80FC5962D4F9C2D39E26A865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeafoodRecipe/Pods-SeafoodRecipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeafoodRecipe/Pods-SeafoodRecipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeafoodRecipe/Pods-SeafoodRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F546FF9CD4355197941C612D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeafoodRecipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B1360B9283E344B0060FA21 /* Sources */ = {
@@ -139,12 +555,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1360C5283E344B0060FA21 /* ViewController.swift in Sources */,
+				8B1F69DB283E44840019CEBE /* RecipeDetailVC.swift in Sources */,
+				8B1F69EB283E44F10019CEBE /* RecipeListCell.swift in Sources */,
+				8B0B5FB0283E3D5500D5E0FB /* SRViewController.swift in Sources */,
+				8B4EBBD6283E7657006C13DB /* RecipeUseCase.swift in Sources */,
 				8B1360C1283E344B0060FA21 /* AppDelegate.swift in Sources */,
+				8B6548B9283E8F790079C750 /* ApiClient.swift in Sources */,
+				8B4EBBDA283E77F7006C13DB /* RecipeViewModel.swift in Sources */,
+				8B1BA50E283EAAE800CEC991 /* RecipeDetailViewModel.swift in Sources */,
+				8B1BA52B283EB02D00CEC991 /* ImageCell.swift in Sources */,
+				8B1F69CD283E44520019CEBE /* RecipeListVC.swift in Sources */,
+				8B1BA526283EAE7700CEC991 /* InstructionCell.swift in Sources */,
 				8B1360C3283E344B0060FA21 /* SceneDelegate.swift in Sources */,
+				8B1BA51E283EAE5000CEC991 /* SubHeaderCell.swift in Sources */,
+				8B1BA52F283EC7A500CEC991 /* ExtColor.swift in Sources */,
+				8B4EBBCD283E734F006C13DB /* Recipe.swift in Sources */,
+				8B6548B7283E8F690079C750 /* ApiError.swift in Sources */,
+				8B1BA522283EAE6200CEC991 /* IngridientCell.swift in Sources */,
+				8B537CB5283E9DF700851724 /* RecipeTarget.swift in Sources */,
+				8B1BA51A283EAE4200CEC991 /* HeaderCell.swift in Sources */,
+				8B6548B5283E8F550079C750 /* ApiConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6548A7283E87F50079C750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6548AE283E87F50079C750 /* SeafoodRecipeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B6548B0283E87F50079C750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1360BC283E344B0060FA21 /* SeafoodRecipe */;
+			targetProxy = 8B6548AF283E87F50079C750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8B1360C6283E344B0060FA21 /* Main.storyboard */ = {
@@ -282,6 +732,7 @@
 		};
 		8B1360D2283E344B0060FA21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E47BFC2E228947E37002FA /* Pods-SeafoodRecipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,11 +740,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeafoodRecipe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seafood Recipe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,12 +756,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8B1360D3283E344B0060FA21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDB7C081433F5A728846A05 /* Pods-SeafoodRecipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,11 +770,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeafoodRecipe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seafood Recipe";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +786,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8B6548B1283E87F50079C750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cindyadonia.SeafoodRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeafoodRecipe.app/SeafoodRecipe";
+			};
+			name = Debug;
+		};
+		8B6548B2283E87F50079C750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cindyadonia.SeafoodRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeafoodRecipe.app/SeafoodRecipe";
 			};
 			name = Release;
 		};
@@ -351,6 +841,15 @@
 			buildConfigurations = (
 				8B1360D2283E344B0060FA21 /* Debug */,
 				8B1360D3283E344B0060FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B6548B3283E87F50079C750 /* Build configuration list for PBXNativeTarget "SeafoodRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6548B1283E87F50079C750 /* Debug */,
+				8B6548B2283E87F50079C750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

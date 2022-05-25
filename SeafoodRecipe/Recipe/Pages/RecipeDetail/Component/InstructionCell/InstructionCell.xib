@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FutuBk.ttf">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InstructionCell" id="KGk-i7-Jjw" customClass="InstructionCell" customModule="SeafoodRecipe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUB-s8-Tyh">
+                        <rect key="frame" x="15" y="0.0" width="290" height="249.5"/>
+                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus velit, placerat cursus tortor et, lacinia fringilla justo. Vestibulum venenatis tempus massa sit amet sollicitudin. Phasellus nec nibh vehicula, sagittis erat in, maximus ex. Etiam maximus, diam et congue mollis, odio ipsum laoreet tortor, sed auctor tellus massa vel nisi. Donec fermentum et odio id ullamcorper. Sed ultrices risus eros, sit amet sollicitudin odio scelerisque sed. Fusce convallis nulla vel urna molestie, sed tempor dolor blandit. Suspendisse potenti. Fusce eu nibh vitae tellus vehicula pellentesque. Curabitur pulvinar mattis felis, non vestibulum arcu facilisis sit amet. Nunc posuere scelerisque nisl at bibendum.
+</mutableString>
+                        <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura Bk BT" pointSize="13"/>
+                        <color key="textColor" red="0.2156862745" green="0.25098039220000001" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GUB-s8-Tyh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="2YR-hp-fv2"/>
+                    <constraint firstItem="GUB-s8-Tyh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="D6d-LE-dIe"/>
+                    <constraint firstAttribute="trailing" secondItem="GUB-s8-Tyh" secondAttribute="trailing" constant="15" id="b2s-iR-5ph"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="instructionLabel" destination="GUB-s8-Tyh" id="ZVD-Tq-9ip"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="92"/>
+        </tableViewCell>
+    </objects>
+</document>
